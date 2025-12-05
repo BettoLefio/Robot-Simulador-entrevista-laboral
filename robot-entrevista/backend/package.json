@@ -1,0 +1,28 @@
+{
+  "name": "robot-entrevista-backend",
+  "version": "1.0.0",
+  "description": "Backend Sprint 1 - Robot de Practica de Entrevistas Laborales",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@google-cloud/firestore": "^8.0.0",
+    "@google-cloud/speech": "^7.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.1.4"
+  }
+}

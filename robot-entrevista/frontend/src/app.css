@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  color: #38bdf8;
+}
+
+header p {
+  margin: 0 0 20px;
+  color: #cbd5e1;
+}
+
+.card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+  color: #cbd5e1;
+}
+
+.field input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #475569;
+  background: #0b1222;
+  color: #e2e8f0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 18px;
+  font-weight: 600;
+  color: #0b1222;
+  transition: transform 0.1s ease, opacity 0.2s ease;
+}
+
+button.primary {
+  background: linear-gradient(135deg, #22d3ee, #0ea5e9);
+}
+
+button.danger {
+  background: linear-gradient(135deg, #f43f5e, #e11d48);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.mic-indicator {
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  border: 1px solid #334155;
+}
+
+.mic-indicator.on {
+  background: rgba(52, 211, 153, 0.12);
+  color: #34d399;
+}
+
+.mic-indicator.off {
+  background: rgba(148, 163, 184, 0.12);
+  color: #cbd5e1;
+}
+
+.status {
+  margin: 8px 0 12px;
+  color: #e2e8f0;
+}
+
+.error {
+  margin: 8px 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(248, 113, 113, 0.1);
+  color: #fecdd3;
+}
+
+.transcript {
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #0b1222;
+  border: 1px solid #334155;
+  min-height: 70px;
+}
+
+.transcript p {
+  margin: 4px 0 0;
+  color: #e2e8f0;
+}
